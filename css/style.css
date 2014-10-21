@@ -5,6 +5,18 @@ body{
 	font-size: 16px;
 }
 
+h1,h2{
+	color:white;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	font-weight: lighter;
+}
+
+h2{
+	font-family: cursive;
+
+}
+
 table{
 	width: 1200px;
 	margin-left: auto;
@@ -12,7 +24,7 @@ table{
 	border: solid 0px black;
 	background-color:  #e9eaed;
 	border-radius: 5px;
-	
+	padding-top: 15px;	
 }
 
 th{
@@ -53,14 +65,4 @@ table img{
 	box-shadow: 5px 10px 7px #aaa;
 	-webkit-box-shadow: 5px 10px 7px #aaa;
 	-moz-box-shadow: 5px 10px 7px #aaa;
-}
-
-table img:nth-child(1){
-	margin-top: 20px;
-}
-table img:nth-child(2){
-	margin-top: 20px;
-
-}
-table img:nth-child(3){
 }
