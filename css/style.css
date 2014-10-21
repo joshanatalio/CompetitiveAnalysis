@@ -1,6 +1,6 @@
 
 body{
-	background-color:#CCCCFF;
+	background-color:#3b5998;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 16px;
 }
@@ -10,7 +10,8 @@ table{
 	margin-left: auto;
 	margin-right: auto;
 	border: solid 0px black;
-	background-color:  #FAFAFF;
+	background-color:  #e9eaed;
+	border-radius: 5px;
 	
 }
 
@@ -19,14 +20,14 @@ th{
 	font-family: "Helvetica", sans-serif;
 	font-weight: bold;
 	min-width:120px;
-	color: navy;
+	color: #3b5998;
 	vertical-align: top;
 }
 
 .photo-header{
 	padding-top: 20px;
 	font-size: 16px;
-	color: SlateGrey;
+	color: black;
 }
 
 td{
@@ -44,7 +45,7 @@ td span{
 }
 
 table img{
-	max-width: 500px;
+	width: 500px;
 	height:271px;
 	border-radius: 2px;
 	display: inline-block;
