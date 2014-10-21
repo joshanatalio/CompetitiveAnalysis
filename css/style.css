@@ -1,0 +1,65 @@
+
+body{
+	background-color:#CCCCFF;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+table{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 0px black;
+	background-color:  #FAFAFF;
+	
+}
+
+th{
+	font-size: 14px;
+	font-family: "Helvetica", sans-serif;
+	font-weight: bold;
+	min-width:120px;
+	color: navy;
+	vertical-align: top;
+}
+
+.photo-header{
+	padding-top: 20px;
+	font-size: 16px;
+	color: SlateGrey;
+}
+
+td{
+	text-align: left;
+	padding:0px 15px 15px 15px;
+
+}
+
+td div{
+	max-width: 1000px;
+}
+td span{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+table img{
+	max-width: 500px;
+	height:271px;
+	border-radius: 2px;
+	display: inline-block;
+	margin: 0px;
+	box-shadow: 5px 10px 7px #aaa;
+	-webkit-box-shadow: 5px 10px 7px #aaa;
+	-moz-box-shadow: 5px 10px 7px #aaa;
+}
+
+table img:nth-child(1){
+	margin-top: 20px;
+}
+table img:nth-child(2){
+	margin-top: 20px;
+
+}
+table img:nth-child(3){
+}
